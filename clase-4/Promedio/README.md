@@ -1,0 +1,55 @@
+Ingresar los nombres de los alumnos de un aula y su nota en cada trimestre (max 3)
+para devolver el promedio de cada alumno y el promedio del curso.
+
+-
+- Entrada
+-
+- cantidadAlumnos = 3
+- cantTrimestres = 3
+- nombreAlumno = ''
+- nota = 0
+- etapa = 1
+- promedioAlumno = 0
+- promedioCurso = 0
+- alumno = 1
+- trimestreAct = 1
+-
+-
+- Desarrollo
+-
+- presentacion del programa
+- indicaciones
+- vamos a ingresar 3 alumnos como maximo y por cada alumno, las 3 notas correspondientes a cada trimestre
+-
+- para: 'bucle'
+- si etapa:
+-     es 1:
+-     etapa = 'primera'
+-     es 2:
+-     etapa = 'segunda'
+-     es 3:
+-     etapa = 'tercera'
+- ingrese el nombre del (etapa) alumno
+- para: 'bucleI'
+- si alumno:
+-     es 1:
+-     etapa = 'primera'
+-     es 2:
+-     etapa = 'segunda'
+-     es 3:
+-     etapa = 'tercera'
+-
+- ingrese la (etapa) nota de este alumno
+- incrementar alumno en 1
+- si (alumno es menor o igual a cantidadAlumnos) entonces ir: 'bucleI'
+-
+- sino etapa = 1
+- trimestreAct incrementa en 1
+- si (trimestreAct es menor o igual a cantTrimestres) ir: 'bucle'
+-
+- ...continuar analisis
+-
+- Salidas
+-
+- promedioAlumno
+- promedioCurso
