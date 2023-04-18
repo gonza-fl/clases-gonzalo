@@ -1,10 +1,14 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export function ImagenGenerica() {
   const [size, setSize] = useState('400');
   function changeSize(valor) {
     setSize(valor);
   }
+
+  useEffect(() => {
+    console.log('Imagen montado');
+  }, []);
 
   return (
     <section>
